@@ -1,0 +1,58 @@
+.btn-block {
+  display: block;
+  width: 45px;
+
+}
+
+.btn-social {
+  position: relative;
+  padding-left: 10px;
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-radius: 3px;
+  background: #575757;
+}
+
+.footer-social-media {
+  text-align: right;
+}
+.footer-social-media i {
+  font-size: 25px;
+  color: white;
+  float: left;
+  padding-right: 15px;
+}
+
+.btn-block {
+  float: left;
+  margin-top: 0px !important;
+  margin-left: 5px;
+}
+
+.media-items {
+  padding-bottom: 10px;
+}
+
+.home-section-detail a {
+  padding-bottom: 3px;
+  text-decoration: none;
+  color: white;
+}
+
+.home-section-detail img {
+  width: 100%;
+  height: 125px;
+  padding-right: 5px;
+  background-size: contain;
+  border-radius: 50%;
+}
+
+.footer-section-detail {
+  padding-bottom: 6px;
+  color:black;
+}
+.home-footer-m-name {
+  font-weight: bold;
+}

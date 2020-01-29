@@ -1,0 +1,26 @@
+<div class="container">
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="cantact-header">
+        <span>Who Should Contact Us</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="cantact-detail">
+        <span>All kinds of real estate related problems can be sorted out and proper service or advice can be
+          availed.</span>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <div *ngFor='let card of contactCards'>
+        <div class="cantac-tiles">
+          <app-contact-card [header]='card.title' [detail]='card.description'></app-contact-card>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,38 @@
+.how-works-tiles-container {
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.how-works-odd-tile,
+.how-works-even-tile {
+  border: #e6e6e6 solid 1px;
+  height: 200px;
+  border-radius: 10px;
+  text-align: center;
+  margin-right: 40px;
+  margin-left: 40px;
+  font-weight: bold;
+  -webkit-box-shadow: -1px 3px 31px 3px rgba(237, 234, 237, 1);
+  -moz-box-shadow: -1px 3px 31px 3px rgba(237, 234, 237, 1);
+  box-shadow: -1px 3px 31px 3px rgba(237, 234, 237, 1);
+}
+
+.how-works-even-tile {
+  margin-top: 50px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .how-works-odd-tile,
+  .how-works-even-tile {
+    margin-top: 20px;
+  }
+}
+
+.how-works-icon {
+  padding: 20px 0px 20px 0px;
+}
+
+.how-works-desc {
+  padding: 20px 0px 20px 0px;
+}

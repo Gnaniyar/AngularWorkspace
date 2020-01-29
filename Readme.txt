@@ -1,0 +1,1 @@
+This is guide of Home Rx project setup

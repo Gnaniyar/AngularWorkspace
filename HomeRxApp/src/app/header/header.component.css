@@ -1,0 +1,44 @@
+
+.home-logo-rx {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+
+.nav-item {
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: rgb(254, 77, 93);
+}
+
+.button-header {
+  background-color: #cf1314;
+  border-color: #cf1314;
+  color: white;
+  font-weight: bold;
+  font-size: 12px;
+  -webkit-box-shadow: 3px -13px 81px 0px rgba(89,6,6,1);
+-moz-box-shadow: 3px -13px 81px 0px rgba(89,6,6,1);
+box-shadow: 3px -13px 81px 0px rgba(89,6,6,1);
+}
+
+.home-create-accout {
+  padding-top: 12px;
+}
+
+.navbar-nav span {
+  padding-left: 10px;
+  color:white;
+  padding-top: 8px;
+}
+.navbar-nav a {
+  cursor: pointer;
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  .navbar-light .navbar-nav > span {
+    display: none;
+  }
+}

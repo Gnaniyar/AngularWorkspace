@@ -1,0 +1,33 @@
+<div class="homerx-container">
+  <div class="row">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="hrx-section-header"><span>Reports that will help you to take wise decisions</span></div>
+    </div>
+  </div>
+  <div class="row ">
+    <div class="col-md-12 col-sm-12 col-xs-12">
+      <div class="hrx-section-detail">
+        <span>Presenting our history and achievements as reports that will help you to make your decisions</span>
+      </div>
+    </div>
+  </div>
+  <div class="row homerx-reports-container">
+    <div class="col-md-4 col-sm-12 homerx-reports">
+      <div class="row homerx-report" *ngFor="let report of homerxreports" [ngClass]="report.state" (click)="selectReport($event, report)" >
+        <div class="col-md-12">
+          <div class="report-number">
+            <span>{{report.index}}</span>
+          </div>
+          <div class="report-desc">
+            <div class="report-caption">{{report.reportHeader}}</div>
+            <div class="report-text">{{report.reportText}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-8 col-sm-12">
+        <div class="report-pic">
+          <img [src]="activeReport" />
+        </div>
+      </div>
+  </div>

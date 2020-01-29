@@ -1,0 +1,40 @@
+.caption-section {
+  position: absolute !important;
+  text-align: center;
+  left: 10%;
+  top: 20%;
+}
+
+.demo-section {
+  position: absolute !important;
+  text-align: center;
+  left: 43%;
+  top: 70%;
+}
+
+.caption-brand {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.caption-intro {
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  color: rgb(255, 215, 219);
+}
+
+.button-demo {
+  background-color: #cd1316;
+  color: white;
+  font-weight: bold;
+  width: 175px;
+}
+
+.video-property {
+  -webkit-box-shadow: -3px 10px 26px 7px rgba(171, 171, 171, 1);
+  -moz-box-shadow: -3px 10px 26px 7px rgba(171, 171, 171, 1);
+  box-shadow: -3px 10px 26px 7px rgba(171, 171, 171, 1);
+  background: #928f8f;
+}

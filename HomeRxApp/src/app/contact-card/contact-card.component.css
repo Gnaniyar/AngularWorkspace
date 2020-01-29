@@ -1,0 +1,45 @@
+.card-tile {
+  border: #f4f4f4 1px solid;
+  border-radius: 5%;
+  width: 350px;
+  height: 220px;
+  display: block;
+  background: #ffffff;
+  -webkit-box-shadow: 3px -13px 72px 5px rgba(244,244,244,1);
+-moz-box-shadow: 3px -13px 72px 5px rgba(244,244,244,1);
+box-shadow: 3px -13px 72px 5px rgba(244,244,244,1);
+  padding-bottom: 5px;
+  margin-right: 20px;
+  margin-bottom: 25px;
+  float: left;
+}
+
+
+.contact-button {
+  padding: 10px 0px 0px 100px;
+}
+
+.contact-button > button {
+  width:125px;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 6px 12px 6px 20px;
+  background: #ffffff;
+  color: red;
+  border: #cd1318 1px solid;
+  border-radius: 3px;
+  -webkit-box-shadow: -3px -9px 26px 7px rgba(255,238,238,1);
+  -moz-box-shadow: -3px -9px 26px 7px rgba(255,238,238,1);
+  box-shadow: -3px -9px 26px 7px rgba(255,238,238,1);
+}
+
+.contact-tile-header {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 42px 0px 10px 33px;
+}
+
+.contact-tile-detail {
+  font-size: 14px;
+  padding: 0px 0px 10px 33px;
+}

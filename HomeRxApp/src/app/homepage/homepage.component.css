@@ -1,0 +1,43 @@
+
+.home-video {
+  background-image: url("../../assets/headerTopBg.jpg");
+  background-repeat: repeat-x;
+}
+
+.home-section {
+  background-image: url("../../assets/homeHeaderImg.jpg");
+  background-size: cover;
+
+}
+
+.home-wat-do {
+  background: -webkit-linear-gradient(-90deg, rgba(255,255,255,1) 0, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 27%, rgba(255,233,233,1) 47%, rgba(255,233,233,1) 100%);
+  background: -moz-linear-gradient(180deg, rgba(255,255,255,1) 0, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 27%, rgba(255,233,233,1) 47%, rgba(255,233,233,1) 100%);
+  background: linear-gradient(180deg, rgba(255,255,255,1) 0, rgba(255,255,255,1) 27%, rgba(255,255,255,1) 27%, rgba(255,233,233,1) 47%, rgba(255,233,233,1) 100%);
+  background-position: 50% 50%;
+}
+.home-whyrx {
+  background-image: url("../../assets/WhyHomeBgNew.png");
+  background-repeat: repeat;
+}
+
+.home-header.open {
+  display: block;
+}
+
+
+.home-wht-ppl-say {
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.homerxfor-section {
+  padding-bottom: 30px;
+}
+.section-seperator {
+  background-image: url("../../assets/sectionSeparatorBg.png");
+  width: 100%;
+  height: 30px;
+  padding-bottom: 50px;
+  background-repeat: repeat-x;
+}
+

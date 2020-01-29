@@ -1,0 +1,93 @@
+<div class="container-carousel">
+  <div class="row align-items-center">
+    <div class="col-md-3">
+      <div class="carousel-left-nav disabled" [ngClass]="{'disabled': LeftGrayArrowClass === true}">
+        <i class="fa fa-long-arrow-left" (click)="movePrevious()"></i>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <ngb-carousel class="carousel-center-content" #angularcarousel (slide)="onSlide($event)">
+        <ng-template ngbSlide id="1">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 centered-item">
+              <img src="../../assets/poonam.jpg" alt="Random first slide" />
+            </div>
+          </div>
+          <div class="homerx-items-space">
+              <div class="centered-item caption-highlighted">
+                  <span>Poonam Bajwa</span>
+                </div>
+                <div class="centered-item">
+                  <span>New Modal Town, Mumbai</span>
+                </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 carousel-item-description">
+              <span>Poonam Bajwa is one of the famous actress in south indiam film industry says..</span>
+              <span>HomeRx is my home builder, I personnaly recommand Home Rx for all my family members and
+                friends</span>
+            </div>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide id="2">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 centered-item">
+              <img src="../../assets/Aamir.jpg" alt="Random first slide" />
+            </div>
+          </div>
+          <div class="homerx-items-space">
+              <div class="centered-item caption-highlighted">
+                  <span>Aamir Khan</span>
+                </div>
+                <div class="centered-item">
+                  <span>New Modal Town, Mumbai</span>
+                </div>
+          </div>
+
+          <div class="row">
+            <div class="col-md-12 col-sm-12 carousel-item-description">
+              <span>Aamir Khan is number one actor and social activist in bollywood film industry says..</span>
+              <span>HomeRx is my home builder, I personnaly recommand Home Rx for all my family members and
+                friends</span>
+            </div>
+          </div>
+        </ng-template>
+        <ng-template ngbSlide id="3">
+          <div class="row">
+            <div class="col-md-12 col-sm-12 centered-item">
+              <img src="../../assets/poonam.jpg" alt="Random first slide" />
+            </div>
+          </div>
+          <div class="homerx-items-space">
+              <div class="centered-item caption-highlighted">
+                  <span>Poonam Bajwa</span>
+                </div>
+                <div class="centered-item">
+                  <span>New Modal Town, Mumbai</span>
+                </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 col-sm-12 carousel-item-description">
+              <span>Poonam Bajwa is one of the famous actress in south indiam film industry says..</span>
+              <span>HomeRx is my home builder, I personnaly recommand Home Rx for all my family members and
+                friends</span>
+            </div>
+          </div>
+        </ng-template>
+      </ngb-carousel>
+    </div>
+    <div class="col-md-3">
+      <div class="carousel-right-nav align-middle " [ngClass]="{'disabled': RightGrayArrowClass === true}">
+        <i class="fa fa-long-arrow-right" (click)="moveNext()"></i>
+      </div>
+    </div>
+  </div>
+  <div class="row carousel-index-pointers">
+    <div class="Col-md-12 col-sm-12">
+      <div>
+        <span *ngFor="let indicator of slideIndicators" [ngClass]="{'active': indicator.isActive === true}"
+          class="circle-pointer"></span>
+      </div>
+    </div>
+  </div>
+</div>

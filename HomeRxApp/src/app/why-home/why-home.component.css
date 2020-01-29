@@ -1,0 +1,45 @@
+.section-detail-container {
+  justify-content: center;
+  display: flex;
+}
+
+.hrx-section-detail {
+  width: 600px;
+}
+
+.why-home-headerbg {
+  background: url('../../assets/whoAreWe-RightBg.png') no-repeat right center;
+}
+
+.why-home-contentbg {
+  background: url('../../assets/whoAreWe-LeftBg.png') no-repeat left center;
+}
+
+.why-home-tiles-container {
+  justify-content: center;
+  padding-top: 50px;
+  padding-bottom: 150px;
+
+}
+
+.why-home-tile {
+  height: auto;
+  text-align: center;
+  margin-right: 40px;
+  margin-left: 40px;
+  font-weight: bold;
+}
+
+.why-home-desc {
+  font-weight: normal;
+  font-size: 13px;
+}
+
+.why-home-icon {
+  padding: 20px 0px 20px 0px;
+}
+
+.why-home-header {
+  font-size: 15px;
+  padding: 20px 0px 20px 0px;
+}

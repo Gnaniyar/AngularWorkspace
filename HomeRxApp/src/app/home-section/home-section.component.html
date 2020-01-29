@@ -1,0 +1,33 @@
+<div @fadeIn class="header-sticky">
+    <app-sticky-header></app-sticky-header>
+</div>
+
+<div class="home-secion-container">
+  <div class="homerx-container">
+    <app-header></app-header>
+    <div class="row" @fadeIn>
+      <div class="col-md-12 col-sm-12">
+        <div class="caption-section">
+          <div class="caption-brand">Let us be the care taker for your hard earned investment</div>
+          <span class="caption-intro">HomeRx team have highly skilled professionals in different verticals to satisfy
+            your home maintenance needs.</span><br>
+          <span class="caption-intro">HomeRx can provide all the services necessary to maintain your investment
+            property.</span>
+        </div>
+      </div>
+    </div>
+    <div class="row home-demo-section">
+      <div class="col-md-12 col-sm-12">
+        <button class="btn button-homerx-primary" (click)="GoToSupport()">Contact Us</button>
+        <button class="btn button-homerx-primary" (click)="GoToWhatsProblem()" >Whats the problem</button>
+        <button class="btn button-homerx-primary">Sign Up</button>
+      </div>
+    </div>
+    <div class="row home-scroll-section">
+      <div class="col-md-12 col-sm-12">
+        <span>Scroll down</span><br>
+        <i class="fa fa-chevron-down"></i>
+      </div>
+    </div>
+  </div>
+</div>

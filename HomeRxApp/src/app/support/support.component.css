@@ -1,0 +1,30 @@
+.feedback-button {
+  text-align: center;
+}
+
+.feedback-button > button {
+  width: 200px;
+}
+
+input[type="text"],
+textarea {
+  border: #f3f3f3 1px solid;
+
+}
+
+.button-homerx-primary {
+  background-color: #fe4d5d;
+  color: white;
+  font-weight: bold;
+  width: 175px;
+  border-radius: 25px 25px;
+}
+
+.hrx-section-detail,
+.hrx-section-header {
+  color: white;
+}
+
+.hrx-section-detail {
+  padding-bottom: 50px;
+}

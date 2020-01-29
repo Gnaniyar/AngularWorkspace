@@ -1,0 +1,241 @@
+body {
+  font-size: 13px !important;
+}
+
+.centered-item {
+  text-align: center;
+}
+
+.caption-highlighted {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.caption-normal {
+  font-size: 18px;
+}
+
+iframe {
+  border: none;
+}
+
+.homerx-container {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.homerx-justify-center {
+  justify-content: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .homerx-container {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.homerx-items-space {
+  padding: 10px 0px 0px 10px;
+}
+
+.home-logo {
+  font-size: 26px;
+  font-weight: bold;
+  color: rgb(254, 77, 93);
+}
+
+.hrx-sticky-header .home-logo-rx {
+  color: orange;
+}
+
+.home-secion-container .home-logo-rx {
+  color: white;
+}
+
+.home-secion-container .navbar-light .navbar-nav .nav-link,
+.home-secion-container .navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+.home-secion-container .navbar-light .navbar-nav .nav-link-seperator {
+  color: white;
+}
+
+.hrx-sticky-header .navbar-light .navbar-nav .nav-link-seperator {
+  color:  black
+}
+
+.hrx-sticky-header .navbar-light .navbar-nav .nav-link,
+.hrx-sticky-header .navbar-light .navbar-nav .nav-link:hover {
+  color: black;
+}
+
+.header-sticky {
+  position: fixed;
+  width: 100%;
+  z-index: 10000;
+  display: none;
+}
+
+.header-sticky.open {
+  display: block;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .header-sticky.open {
+    display: none;
+  }
+}
+
+.home-nav-links {
+  text-align: center;
+}
+.home-nav-links a {
+  color: #ffffff;
+  font-size: 13px;
+}
+
+.home-contact {
+  padding: 20px 0px 10px 0px;
+}
+
+.home-support {
+  background: url('../src/assets/contactSectionBg.gif') no-repeat center center;
+  background-size: cover;
+  background-color: #2e1a1b;
+  padding-bottom: 30px;
+  -webkit-box-shadow: inset 9px -10px 69px 15px rgba(0, 0, 0, 0.88);
+  -moz-box-shadow: inset 9px -10px 69px 15px rgba(0, 0, 0, 0.88);
+  box-shadow: inset 9px -10px 69px 15px rgba(0, 0, 0, 0.88);
+}
+
+.home-footer {
+  padding-top: 50px;
+  background: rgb(248,248,248);
+}
+
+.footer-pattern {
+  height: 50px;
+  font-size: 16px;
+  background: black;
+  text-align: center;
+  color: #7e7e7e;
+  padding-top: 15px;
+}
+
+.home-section-header,
+.home-sub-section-header {
+  padding-bottom: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: black;
+}
+
+.home-sub-section-header {
+  font-size: 14px;
+}
+
+.home-section-detail {
+  color: black;
+  padding-bottom: 25px;
+}
+
+.home-section-link {
+  padding-bottom: 15px;
+}
+
+.home-section-link > a {
+  color: rgb(255,101,116) !important;
+  padding-bottom: 15px;
+}
+
+.home-section-detail > a {
+  text-decoration: underline;
+}
+.home-contact,
+.home-contact-info {
+  color: #ffffff;
+}
+
+.cantact-header,
+.reason-choose {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.reason-header,
+.cantact-header {
+  padding: 50px 0px 10px 0px;
+}
+
+.reason-home {
+  color: #ce1513;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.reason-rx {
+  color: #ff884b;
+  font-size: 25px;
+}
+
+.cantact-detail,
+.section-detail,
+.reason-header,
+.cantact-header {
+  text-align: center;
+}
+.cantact-detail,
+.section-detail {
+  padding-bottom: 30px;
+  font-size: 15px;
+}
+
+.info-tile {
+  width: 300px;
+  height: 150px;
+  display: block;
+  background: transparent;
+  padding-bottom: 5px;
+  margin-right: 60px;
+  margin-bottom: 25px;
+  float: left;
+}
+
+.tile-header {
+  font-size: 15px;
+  font-weight: bold;
+  padding: 14px 0px 10px 5px;
+}
+
+.tile-detail {
+  font-size: 14px;
+  padding: 0px 0px 30px 5px;
+}
+
+.hrx-section-header {
+  font-size: 30px;
+  font-weight: bold;
+  text-align: center;
+  padding: 50px 0px 10px 0px;
+}
+
+.hrx-section-detail {
+  font-size: 13px;
+  text-align: center;
+  padding-bottom: 30px;
+  font-weight: bold;
+}
+
+.carousel-indicators {
+  display: none !important;
+}
+
+.button-homerx-primary {
+  background-color: #fe4d5d;
+  color: white;
+  font-weight: bold;
+  width: 175px;
+  border-radius: 25px 25px;
+}

@@ -1,0 +1,48 @@
+.problem-container {
+  width: 100%;
+  height: 350px;
+  background-image: url("../../assets/whatistheProblem-Bg.png");
+  background-size: cover;
+}
+
+.propblem-tile {
+  width: 100%;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+.propblem-tile img {
+  max-width: 100%;
+  background-size: contain;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.problem-text-section {
+  height: 157px;
+  width: 100%;
+  background: white;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.problem-text-caption {
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 15px;
+  width: 100%;
+}
+
+.problem-text-desc {
+  color: black;
+  font-size: 13px;
+  padding: 15px;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+  .problem-container {
+    height: auto;
+  }
+}
+
