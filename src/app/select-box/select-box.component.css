@@ -1,0 +1,74 @@
+.slb-outer-wrapper {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #585961;
+  border-radius: 25px;
+  max-height: 30px;
+  padding: 1px 0px 2px 2px;
+  cursor: pointer;
+}
+.slb-icon,
+.slb-content {
+  font-size: 13px;
+  color: #929a9a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.slb-content {
+  padding: 2px 0px 0px 3px;
+}
+.slb-icon {
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+}
+.slb-listitems {
+  border: 1px solid #12161d;
+  color: #929a9a;
+  background-color: #12161d;
+}
+.slb-listitems li {
+  padding: 10px;
+  font-size: 14px;
+  cursor: pointer;
+  border-bottom: solid 1px;
+}
+
+ul,
+li {
+  list-style-type: none;
+  list-style-position: inside;
+  margin: 0;
+  padding: 0;
+}
+
+li:hover {
+  opacity: 1;
+}
+.slb-listicon {
+  display: inline-block;
+}
+.slb-icon img,
+.slb-listicon img {
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 50%;
+}
+.slb-listicon img {
+  width: 25px;
+  height: 25px;
+}
+.slb-icon img {
+  width: 25px;
+  height: 25px;
+}
+.slb-listitems li span {
+  padding-left: 10px;
+}
+.slb-arrow {
+  margin-left: auto;
+  padding-right: 10px;
+  color: #585961;
+  font-size: 15px;
+}

@@ -1,0 +1,25 @@
+<div class="slb-outer-wrapper" (click) = 'toggleList()'>
+  <div class="slb-icon">
+    <img src='../../assets/images/{{SelectedItem.Icon}}'>
+  </div>
+  <div class="slb-content">
+    <span>{{SelectedItem.Text}}</span>
+  </div>
+  <div class="slb-arrow">
+    <i class="fa fa-angle-down"></i>
+  </div>
+</div>
+<div class="slb-listitems" *ngIf="showMenu" >
+  <ul>
+    <li *ngFor="let listItem of Source" (click)="setSelectedListItem(listItem)">
+      <div class="row">
+        <div class="col-md-2">
+          <div class="slb-listicon">
+            <img src='../../assets/images/{{listItem.Icon}}'>
+          </div>
+        </div>
+        <div class="col-md-9"><span>{{listItem.Text}}</span> </div>
+      </div>
+    </li>
+  </ul>
+</div>

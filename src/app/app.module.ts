@@ -8,6 +8,7 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { SideToolbarComponent } from './side-toolbar/side-toolbar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './header/header.component';
+import { SelectBoxComponent } from './select-box/select-box.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { HeaderComponent } from './header/header.component';
     HomePageComponent,
     SideToolbarComponent,
     DashboardComponent,
-    HeaderComponent
+    HeaderComponent,
+    SelectBoxComponent
   ],
   imports: [
     BrowserModule,

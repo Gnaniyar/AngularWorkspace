@@ -2,3 +2,25 @@
   background-color: #12141a;
   height: 75px;
 }
+.toolbor-circle-icon {
+  font-size: 40px;
+  color: #424252;
+  padding-top: 15px;
+}
+.header-search-area {
+  padding-top: 25px;
+}
+.header-search-area i {
+  font-size: 20px;
+  color: #424350;
+}
+.header-timestamp {
+  padding-top: 30px;
+  font-size: 10px;
+  color:  #67686f;
+}
+.slb-country,
+.slb-language {
+  margin-top: 25px;;
+}
+

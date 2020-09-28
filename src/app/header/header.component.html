@@ -1,11 +1,24 @@
-<div class="row" class="top-header">
-  <div class="col-md-1 col-sm-2 col-xs-2">
-
-  </div>
-  <div class="col-md-3 col-sm-2 col-xs-2">
-
-  </div>
-  <div class="col-md-8 col-sm-8 col-xs-8">
-
+<div class="top-header">
+  <div class="row row-height-default">
+    <div class="col-md-1 col-sm-2 col-xs-2 horizantal-ceter">
+      <i class="fa fa-circle toolbor-circle-icon"></i>
+    </div>
+    <div class="col-md-3 col-sm-2 col-xs-2 header-search-area">
+      <i class="fa fa-windows"></i>
+      <i class="fa fa-search pull-right"></i>
+    </div>
+    <div class="col-md-8 col-sm-8 col-xs-8">
+      <div class="row">
+        <div class="col-md-2 header-timestamp">
+          <span>10:00:01 PM | Tue, 1 Sep 20</span>
+        </div>
+        <div class="col-md-3 slb-country">
+          <app-select-box [DefaultText] = 'DefaultContryText' [Source] = 'Country' ></app-select-box>
+        </div>
+        <div class="col-md-2 slb-language">
+          <app-select-box [DefaultText] = 'DefaultLanguageText' [Source] = 'Language' ></app-select-box>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
