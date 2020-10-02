@@ -1,6 +1,6 @@
 <div class="slb-outer-wrapper" (click) = 'toggleList()'>
   <div class="slb-icon">
-    <img src='../../assets/images/{{SelectedItem.Icon}}'>
+    <img *ngIf='SelectedItem.Icon !== ""' src='../../assets/images/{{SelectedItem.Icon}}'>
   </div>
   <div class="slb-content">
     <span>{{SelectedItem.Text}}</span>
