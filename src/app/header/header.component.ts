@@ -19,11 +19,11 @@ export class HeaderComponent implements OnInit {
       Text: 'United States'
     },
     {
-      Icon: 'uk-flag.jpg',
+      Icon: 'uae-flag.png',
       Text: 'Emirates'
     },
     {
-      Icon: 'uk-flag.jpg',
+      Icon: 'india-flag.jpg',
       Text: 'India'
     }
   ];
@@ -38,11 +38,11 @@ export class HeaderComponent implements OnInit {
       Text: 'English - USA'
     },
     {
-      Icon: 'uk-flag.jpg',
+      Icon: 'uae-flag.jpg',
       Text: 'Arabic'
     },
     {
-      Icon: 'uk-flag.jpg',
+      Icon: 'india-flag.jpg',
       Text: 'Hindi'
     }
   ];
