@@ -11,6 +11,7 @@ import { HeaderComponent } from './header/header.component';
 import { SelectBoxComponent } from './select-box/select-box.component';
 import { FirstLayoutComponent } from './first-layout/first-layout.component';
 import { SecondLayoutComponent } from './second-layout/second-layout.component';
+import { FileUploadLayoutComponent } from './file-upload-layout/file-upload-layout.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { SecondLayoutComponent } from './second-layout/second-layout.component';
     HeaderComponent,
     SelectBoxComponent,
     FirstLayoutComponent,
-    SecondLayoutComponent
+    SecondLayoutComponent,
+    FileUploadLayoutComponent
   ],
   imports: [
     BrowserModule,
