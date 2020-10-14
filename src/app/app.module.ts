@@ -9,6 +9,8 @@ import { SideToolbarComponent } from './side-toolbar/side-toolbar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { HeaderComponent } from './header/header.component';
 import { SelectBoxComponent } from './select-box/select-box.component';
+import { FirstLayoutComponent } from './first-layout/first-layout.component';
+import { SecondLayoutComponent } from './second-layout/second-layout.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,9 @@ import { SelectBoxComponent } from './select-box/select-box.component';
     SideToolbarComponent,
     DashboardComponent,
     HeaderComponent,
-    SelectBoxComponent
+    SelectBoxComponent,
+    FirstLayoutComponent,
+    SecondLayoutComponent
   ],
   imports: [
     BrowserModule,
