@@ -83,6 +83,7 @@
   padding-right: 25px;
   background-color: #3999c6;
 }
+
 .slb-icon,
 .slb-content {
   font-size: 15px;
@@ -108,6 +109,7 @@
   color: #585961;
   font-size: 15px;
 }
+
 .layour-title {
   display: flex;
   flex-direction: row;
@@ -150,7 +152,7 @@
 }
 
 .contorl-header {
-  padding-bottom: 10px;
+  margin-bottom: 10px;
 }
 .contorl-header label {
   font-size: 12px;
@@ -161,7 +163,14 @@
 input[type="text"] {
   border: none;
   border-bottom: solid 1px black;
+  background: transparent;
+  min-height: 40px;
+  min-width: 200px;
 }
+.contorl-header .input-box {
+  background-color: #dfe6e6;
+}
+
 .file-upload-title {
   font-size: 25px;
   padding-bottom: 40px;
@@ -177,8 +186,8 @@ input[type="text"] {
 }
 
 .upload-zone {
-  width: 450px;
-  height: 300px;
+  width: 500px;
+  height: 350px;
   border: solid 7px #acaeb7;
   border-radius: 10px;
   margin-left: 20px;
@@ -218,9 +227,9 @@ input[type="text"] {
 .toggle_box__background {
   display: inline-block;
   position: relative;
-  background-color: #B2B2B2;
+  background-color: #b2b2b2;
   border-radius: 20px;
-  transition: background-color ease-out .2s;
+  transition: background-color ease-out 0.2s;
   cursor: pointer;
 }
 
@@ -245,7 +254,7 @@ input[type="text"] {
   margin: 2px 24px 2px 2px;
   background-color: #fff;
   border-radius: 9px;
-  transition: margin ease-out .2s;
+  transition: margin ease-out 0.2s;
 }
 
 .toggle_box {
@@ -256,4 +265,37 @@ input[type="text"] {
 
 .toggle_box__checkbox:checked + .toggle_box__button {
   margin: 2px 2px 2px 24px;
+}
+
+.drb-wrapper {
+  display: flex;
+  flex-direction: row;
+  min-width: 200px;
+  min-height: 50px;
+  border-bottom: solid 1px black;
+  background: #dfe6e6;
+}
+.drb-wrapper i {
+  display: flex;
+  align-items: center;
+  color: black;
+}
+
+.drb-content {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  font-size: 14px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.drb-arrow {
+  margin-left: auto;
+  padding-right: 5px;
+  color: #585961;
+  font-size: 12px;
+  align-items: center;
+  display: flex;
 }
