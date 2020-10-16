@@ -168,7 +168,7 @@ input[type="text"] {
   min-width: 200px;
 }
 .contorl-header .input-box {
-  background-color: #dfe6e6;
+  background-color: #f0f5f5;
 }
 
 .file-upload-title {
@@ -273,7 +273,7 @@ input[type="text"] {
   min-width: 200px;
   min-height: 50px;
   border-bottom: solid 1px black;
-  background: #dfe6e6;
+  background: #f0f5f5;
 }
 .drb-wrapper i {
   display: flex;
