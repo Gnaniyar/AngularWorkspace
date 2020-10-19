@@ -1,12 +1,15 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { FileUploadLayoutComponent } from './file-upload-layout/file-upload-layout.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { PreviewLayoutComponent } from './preview-layout/preview-layout.component';
 import { SecondLayoutComponent } from './second-layout/second-layout.component';
 
 
 const routes: Routes = [
-  {path: 'homepage', component: SecondLayoutComponent},
+  {path: 'homepage', component: HomePageComponent},
   {path: 'upload', component: FileUploadLayoutComponent},
+  {path: 'preview', component: PreviewLayoutComponent },
   {path: '', redirectTo: '/homepage', pathMatch: 'full'}
 ];
 

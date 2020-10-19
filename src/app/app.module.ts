@@ -12,6 +12,7 @@ import { SelectBoxComponent } from './select-box/select-box.component';
 import { FirstLayoutComponent } from './first-layout/first-layout.component';
 import { SecondLayoutComponent } from './second-layout/second-layout.component';
 import { FileUploadLayoutComponent } from './file-upload-layout/file-upload-layout.component';
+import { PreviewLayoutComponent } from './preview-layout/preview-layout.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { FileUploadLayoutComponent } from './file-upload-layout/file-upload-layo
     SelectBoxComponent,
     FirstLayoutComponent,
     SecondLayoutComponent,
-    FileUploadLayoutComponent
+    FileUploadLayoutComponent,
+    PreviewLayoutComponent
   ],
   imports: [
     BrowserModule,
