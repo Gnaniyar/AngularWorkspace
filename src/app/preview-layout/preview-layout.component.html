@@ -37,59 +37,63 @@
       </div>
     </div>
   </div>
-  <div class="s-layout-toolbar">
-    <div class="active-toolbar-control">
-      <i class="fa fa-upload"></i>
+  <div class="dm-toolbar-withcontentarea">
+    <div class="s-layout-toolbar">
+      <div class="active-toolbar-control">
+        <i class="fa fa-upload"></i>
+      </div>
+      <div>
+        <i class="fa fa-columns"></i>
+      </div>
+      <div class="comb-view">
+        <i class="fa fa-columns"></i><i class="fa fa-eye"></i>
+      </div>
     </div>
-    <div>
-      <i class="fa fa-columns"></i>
-    </div>
-    <div class="comb-view">
-      <i class="fa fa-columns"></i><i class="fa fa-eye"></i>
-    </div>
-  </div>
-  <div class="row dm-search-row row-margin">
-    <div class="col-md-8  column-no-padding">
-      <div class="preview-container">
-        <div class="dm-preview-search">
-          <div class="dm-search-columnwithmenu">
-            <div class="dm-search-column">
-              <a class="dm-seach-select" (click) = "toggleCongextMenu()">
-                <div class="search-column"><span>Search column</span></div>
-                <div class="search-arrow"><i class="fa fa-chevron-down"></i> </div>
-              </a>
-            </div>
-            <div class="context-uparrow" *ngIf="showContextMenu"></div>
-            <div class="dm-search-menu" *ngIf="showContextMenu">
-              <ul>
-                <li><a>Column 1</a></li>
-                <li><a>Column 2</a></li>
-                <li><a>Column 3</a></li>
-                <li><a>Column 4</a></li>
-                <li><a>Column 5</a></li>
-                <li><a>Column 6</a></li>
-                <li><a>Column 7</a></li>
-                <li><a>Column 8</a></li>
-                <li><a>Column 9</a></li>
-                <li><a>Column 10</a></li>
-              </ul>
-            </div>
-          </div>
+    <div class="s-layout-content">
+      <div class="row dm-search-row row-no-margin">
+        <div class="col-md-8  column-no-padding">
+          <div class="preview-container">
+            <div class="dm-preview-search">
+              <div class="dm-search-columnwithmenu">
+                <div class="dm-search-column">
+                  <a class="dm-seach-select" (click)="toggleCongextMenu()">
+                    <div class="search-column"><span>Search column</span></div>
+                    <div class="search-arrow"><i class="fa fa-chevron-down"></i> </div>
+                  </a>
+                </div>
+                <div class="context-uparrow" *ngIf="showContextMenu"></div>
+                <div class="dm-search-menu" *ngIf="showContextMenu">
+                  <ul>
+                    <li><a>Column 1</a></li>
+                    <li><a>Column 2</a></li>
+                    <li><a>Column 3</a></li>
+                    <li><a>Column 4</a></li>
+                    <li><a>Column 5</a></li>
+                    <li><a>Column 6</a></li>
+                    <li><a>Column 7</a></li>
+                    <li><a>Column 8</a></li>
+                    <li><a>Column 9</a></li>
+                    <li><a>Column 10</a></li>
+                  </ul>
+                </div>
+              </div>
 
-          <div class="dm-search-box">
-            <input type="text" class="dm-search-text" placeholder="Search Text">
-            <div class="dm-search-icon">
-              <i class="fa fa-search"></i>
+              <div class="dm-search-box">
+                <input type="text" class="dm-search-text" placeholder="Search Text">
+                <div class="dm-search-icon">
+                  <i class="fa fa-search"></i>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="row" style="margin-right: 0;">
-    <div class="col-md-12 column-no-padding">
-      <div class="dm-preview-table">
+      <div class="row row-no-margin" style="margin-right: 0;">
+        <div class="col-md-12 column-no-padding">
+          <div class="dm-preview-table">
 
+          </div>
+        </div>
       </div>
     </div>
   </div>

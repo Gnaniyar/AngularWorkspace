@@ -8,6 +8,7 @@ import { SecondLayoutComponent } from './second-layout/second-layout.component';
 
 const routes: Routes = [
   {path: 'homepage', component: HomePageComponent},
+  {path: 'layout', component: SecondLayoutComponent},
   {path: 'upload', component: FileUploadLayoutComponent},
   {path: 'preview', component: PreviewLayoutComponent },
   {path: '', redirectTo: '/homepage', pathMatch: 'full'}

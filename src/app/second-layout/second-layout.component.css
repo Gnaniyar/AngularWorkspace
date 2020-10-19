@@ -5,6 +5,21 @@
   padding-left: 0px;
   padding-right: 0px;
 }
+.row-no-margin {
+  margin-left: 0;
+  margin-right: 0;
+}
+.s-layout-container {
+  display: flex;
+  flex-direction: column;
+}
+.dm-toolbar-withcontentarea {
+  display: flex;
+  flex-direction: row;
+}
+.s-layout-content {
+  width: 100%;
+}
 .s-layout-header {
   height: 55px;
   background-color: #ffffff;
@@ -30,8 +45,8 @@
 .s-layout-toolbar {
   display: flex;
   flex-direction: column;
-  height: calc(100vh - 55px);
   background-color: #ffffff;
+  min-height: calc(100vh - 55px);
   width: 50px;
   border-right: solid 1px #c4c8cf;
   background-color: #dbdcde;
