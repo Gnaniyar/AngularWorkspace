@@ -214,6 +214,7 @@
   width: 200px;
   border-radius: 10px;
   border: solid 1px #b7aaaa;
+  background-color: white;
   display: block;
   position: absolute;
   z-index: 1000;
@@ -263,4 +264,11 @@
 .dm-search-menu li {
   padding: 7px 0px 7px 15px;
   cursor: pointer;
+}
+
+.dm-preview-table {
+  height: 300px;
+  max-width: 95%;
+  margin-left: 30px;
+  overflow: auto;
 }
