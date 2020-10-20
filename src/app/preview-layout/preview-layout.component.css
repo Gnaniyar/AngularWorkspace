@@ -289,9 +289,16 @@
   overflow: auto;
 }
 
+.dm-preview-table .table {
+  font-size: 13px;
+}
+
+.dm-preview-table .table th,
+.dm-preview-table .table td {
+  padding: 0.5rem;
+}
 .dm-preview-table thead {
   background-color: #e6e5e15c;
-  font-size: 14px;
 }
 .dm-preview-table tbody {
   background-color: #f5f5dc54;
