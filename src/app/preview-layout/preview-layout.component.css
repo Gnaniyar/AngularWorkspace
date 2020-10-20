@@ -284,8 +284,24 @@
 }
 
 .dm-preview-table {
-  height: 300px;
   max-width: 95%;
   margin-left: 30px;
   overflow: auto;
+}
+
+.dm-preview-table thead {
+  background-color: #e6e5e15c;
+  font-size: 14px;
+}
+.dm-preview-table tbody {
+  background-color: #f5f5dc54;
+}
+.dm-preview-table .table thead th {
+  min-width: 125px;
+}
+.dm-preview-table th > i {
+  float: right;
+  padding-top: 3px;
+  color: #93c52c;
+  font-size: 16px;
 }
