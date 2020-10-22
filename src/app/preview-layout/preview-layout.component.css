@@ -312,3 +312,6 @@
   color: #93c52c;
   font-size: 16px;
 }
+.dm-search-menu li:hover {
+  background-color: lightgrey;
+}

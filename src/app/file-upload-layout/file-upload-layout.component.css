@@ -301,3 +301,23 @@ input[type="text"] {
   align-items: center;
   display: flex;
 }
+
+.drb-listitems {
+  border: solid 1px lightgray;
+  font-size: 14px;
+  cursor: pointer;
+  position: absolute;
+  background-color: white;
+  width: 200px;
+}
+.drb-listitems ul {
+  padding: 5px;
+  padding-bottom: 0;
+  margin-bottom: 2px;
+}
+.drb-listitems li {
+  padding: 3px 0px;
+}
+.drb-listitems li:hover {
+  background-color: rgb(238, 232, 232)
+}
