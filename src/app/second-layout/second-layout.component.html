@@ -50,21 +50,22 @@
       </div>
     </div>
     <div class="s-layout-content">
-      <div class="row row-no-margin">
-        <div class="col-md-3 column-no-padding">
-          <div class="s-laoyout-tree">
-
-          </div>
+      <div class="s-laoyout-tree" [style.width.%]="treeWidth" >
+        <div class="tree-dock-icon">
+          <i [ngClass]="isTreeDocked ? 'fa fa-thumb-tack' : 'fa fa-thumb-tack fa-rotate-90'" (click) = "dockTree()"></i>
         </div>
-        <div class="col-md-9 column-no-padding">
-          <div class="s-layout-mapping">
+      </div>
+      <div class="s-laoyout-mapping-view">
+        <div class="s-layout-mapping">
 
-          </div>
-          <div class="s-layout-preview">
-
+        </div>
+        <div class="s-layout-preview" [ngClass]="isPreviewDocked ? 'dm-preview-dock' : 'dm-preview-undock'">
+          <div class="preview-dock-icon">
+            <i [ngClass]="isPreviewDocked ? 'fa fa-thumb-tack' : 'fa fa-thumb-tack fa-rotate-90'" (click) = "dockPreview()"></i>
           </div>
         </div>
       </div>
+
     </div>
 
   </div>
