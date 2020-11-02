@@ -7,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SecondLayoutComponent implements OnInit {
   treeWidth = 25;
+  mappingHeight = 50;
   isTreeDocked = true;
   isPreviewDocked = true;
   constructor() { }
@@ -24,6 +25,11 @@ export class SecondLayoutComponent implements OnInit {
   }
 
   dockPreview(): void {
+    if (this.isPreviewDocked) {
+      this.mappingHeight = 95;
+    } else {
+      this.mappingHeight = 50;
+    }
     this.isPreviewDocked = !this.isPreviewDocked;
   }
 

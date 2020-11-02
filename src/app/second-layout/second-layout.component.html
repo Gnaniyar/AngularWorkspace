@@ -56,10 +56,10 @@
         </div>
       </div>
       <div class="s-laoyout-mapping-view">
-        <div class="s-layout-mapping">
+        <div class="s-layout-mapping" [style.height.%]="mappingHeight">
 
         </div>
-        <div class="s-layout-preview" [ngClass]="isPreviewDocked ? 'dm-preview-dock' : 'dm-preview-undock'">
+        <div class="s-layout-preview"  >
           <div class="preview-dock-icon">
             <i [ngClass]="isPreviewDocked ? 'fa fa-thumb-tack' : 'fa fa-thumb-tack fa-rotate-90'" (click) = "dockPreview()"></i>
           </div>
