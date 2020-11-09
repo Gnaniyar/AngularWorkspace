@@ -13,6 +13,7 @@ import { FirstLayoutComponent } from './first-layout/first-layout.component';
 import { SecondLayoutComponent } from './second-layout/second-layout.component';
 import { FileUploadLayoutComponent } from './file-upload-layout/file-upload-layout.component';
 import { PreviewLayoutComponent } from './preview-layout/preview-layout.component';
+import { FeedMappingComponent } from './feed-mapping/feed-mapping.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { PreviewLayoutComponent } from './preview-layout/preview-layout.componen
     FirstLayoutComponent,
     SecondLayoutComponent,
     FileUploadLayoutComponent,
-    PreviewLayoutComponent
+    PreviewLayoutComponent,
+    FeedMappingComponent
   ],
   imports: [
     BrowserModule,
