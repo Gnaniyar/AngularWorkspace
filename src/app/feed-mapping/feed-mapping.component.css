@@ -250,7 +250,7 @@
   margin-left: 10px;
 }
 
-.tree-node.active  a  span {
+.tree-node.active a span {
   font-weight: bold;
 }
 
@@ -302,4 +302,30 @@
 }
 .tree-item-block {
   display: flex;
+}
+.dm-mapping-container {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 100%;
+}
+.dm-mapping-section-heading {
+  display: flex;
+  padding: 5px;
+  width: 100%;
+  justify-content: space-between;
+}
+.dm-mapping-title {
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.dm-mapping-buttons button {
+  color: white;
+    background-color: #5d5858;
+    border-radius: 23px;
+    height: 35px;
+    margin-right: 7px;
+    padding: 2px 12px;
+    font-size: 14px;
 }
