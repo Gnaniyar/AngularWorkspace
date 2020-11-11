@@ -103,7 +103,8 @@
 
 .s-layout-mapping {
   display: flex;
-  height: 50%;
+  min-height: 55%;
+  overflow: auto;
   border-bottom: solid 1px #c4c8cf;
   -webkit-box-shadow: inset 0px 2px 17px -7px rgba(196, 200, 207, 1);
   -moz-box-shadow: inset 0px 2px 17px -7px rgba(196, 200, 207, 1);
@@ -119,6 +120,8 @@
   box-shadow: inset 0px 2px 17px -7px rgba(196, 200, 207, 1);
   width: 100%;
   background-color: white;
+  z-index: 1000;
+  border-top: solid 1px rgb(196 200 207);
 }
 
 .s-layout-userinfo {
@@ -353,8 +356,8 @@
 }
 .dm-mapping-area {
   border: solid 4px #63af72;
-    min-height: 65%;
-    border-radius: 10px;
+  min-height: 345px;
+  border-radius: 10px;
 }
 
 .dm-mapping-buttons {
@@ -367,8 +370,39 @@
   border-color: #138ac1;
 }
 .dm-mapping-columns {
-  padding:10px;
+  padding: 10px;
   border-bottom: solid 1px #6fa066;
   font-size: 16px;
   font-weight: bold;
+}
+
+.contorl-header {
+  margin-bottom: 10px;
+}
+.contorl-header label {
+  font-size: 12px;
+  color: #3999c6;
+  font-weight: bold;
+}
+
+input[type="text"] {
+  border: none;
+  border-bottom: solid 1px black;
+  background: transparent;
+  min-height: 40px;
+  width: 100%;
+}
+.contorl-header .input-box {
+  background-color: #f0f5f5;
+}
+
+.dm-mapping-rows {
+  padding-top: 10px;
+}
+.dm-mapping-delete {
+  display: flex;
+  font-size: 23px;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
 }
