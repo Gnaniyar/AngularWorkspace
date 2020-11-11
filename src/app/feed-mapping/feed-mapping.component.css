@@ -118,6 +118,7 @@
   -moz-box-shadow: inset 0px 2px 17px -7px rgba(196, 200, 207, 1);
   box-shadow: inset 0px 2px 17px -7px rgba(196, 200, 207, 1);
   width: 100%;
+  background-color: white;
 }
 
 .s-layout-userinfo {
@@ -237,6 +238,10 @@
   white-space: nowrap !important;
 }
 
+.tree-node a:hover {
+  text-decoration: none;
+}
+
 .tree-new-item .form-control {
   display: inline-block;
 }
@@ -309,23 +314,61 @@
   padding: 10px;
   width: 100%;
 }
-.dm-mapping-section-heading {
+.dm-mapping-section-heading,
+.dm-mapping-tabsection {
   display: flex;
   padding: 5px;
   width: 100%;
+}
+.dm-mapping-section-heading {
   justify-content: space-between;
 }
 .dm-mapping-title {
-  font-size: 17px;
+  font-size: 19px;
   font-weight: bold;
 }
 
 .dm-mapping-buttons button {
   color: white;
-    background-color: #5d5858;
-    border-radius: 23px;
-    height: 35px;
-    margin-right: 7px;
-    padding: 2px 12px;
-    font-size: 14px;
+  background-color: #5d5858;
+  border-radius: 23px;
+  height: 30px;
+  margin-right: 7px;
+  padding: 2px 12px;
+  font-size: 14px;
+}
+.dm-mapping-tabs {
+  padding: 5px;
+  display: flex;
+  font-size: 15px;
+  font-weight: bold;
+}
+.dm-tab {
+  padding: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+}
+.dm-tab.active {
+  border-bottom: 4px solid green;
+}
+.dm-mapping-area {
+  border: solid 4px #63af72;
+    min-height: 65%;
+    border-radius: 10px;
+}
+
+.dm-mapping-buttons {
+  display: flex;
+  padding: 10px;
+  justify-content: flex-end;
+}
+.dm-mapping-buttons .dm-save-button {
+  background-color: #138ac1;
+  border-color: #138ac1;
+}
+.dm-mapping-columns {
+  padding:10px;
+  border-bottom: solid 1px #6fa066;
+  font-size: 16px;
+  font-weight: bold;
 }
