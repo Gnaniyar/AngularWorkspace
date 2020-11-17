@@ -406,3 +406,61 @@ input[type="text"] {
   align-items: center;
   height: 80%;
 }
+
+.input-box.rule-box {
+  pointer-events: none;
+  opacity: 0.5;
+  font-weight: bold;
+}
+.dm-rulegen-tab {
+  padding:10px;
+}
+
+/* Rule Generation CSS */
+
+.dm-rules-area  {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 20px;
+}
+
+.dm-card {
+  width: 350px;
+  min-height: 75px;
+  margin: 0px 10px 10px 0px;
+  border-radius: 40px;
+  border: solid 6px #24b7ad;
+  background-color: #eceef1;
+  -webkit-box-shadow: inset -5px 5px 15px 8px rgba(187, 177, 177, 0.74);
+  -moz-box-shadow: inset -5px 5px 15px 8px rgba(187, 177, 177, 0.74);
+  box-shadow: inset -5px 5px 15px 8px rgba(187, 177, 177, 0.74);
+}
+
+.dm-card > .row {
+  height: 100%;
+}
+.dm-card i {
+  font-size: 27px;
+}
+.card-edit-area,
+.card-delete-area {
+  text-align: center;
+  padding-top: 16px;
+  cursor: pointer;
+}
+.card-main-area {
+  text-align: center;
+  padding-top: 5px;
+}
+.card-main-area .card-main-header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+}
+.card-main-area .card-main-desc {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

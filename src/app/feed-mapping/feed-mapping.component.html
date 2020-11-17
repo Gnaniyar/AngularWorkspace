@@ -58,7 +58,7 @@
           <ul class="ng-scope">
             <li class="tree-node">
               <a data-ng-if="!child.isNewNode" class="tree-item ng-scope"><i data-ng-class="nodeIcon(child)"
-                  data-ng-click="nodeToggle(child)" class="fa fa-minus-circle"></i><span
+                  data-ng-click="nodeToggle(child)" class="fa fa-minus-square"></i><span
                   class="ng-binding">Recipient</span></a>
 
               <ul class="ng-scope">
@@ -121,66 +121,117 @@
             </div>
             <div class="dm-mapping-tabsection">
               <div class="dm-mapping-tabs">
-                <div class="dm-tab active">Field Mapping</div>
-                <div class="dm-tab">Rule Management</div>
+                <div class="dm-tab" [ngClass]="isMapview ? 'active' : ''" (click)="toggleMapView()" >Field Mapping</div>
+                <div class="dm-tab" [ngClass]="!isMapview ? 'active' : ''" (click)="toggleMapView()">Rule Management</div>
               </div>
             </div>
             <div class="dm-mapping-area">
-              <div class="dm-mapping-columns">
-                <div class="row row-no-margin">
-                  <div class="col-md-4"><span>Destination</span></div>
-                  <div class="col-md-4"><span>Source</span></div>
+              <div *ngIf="isMapview" class="dm-rulemapping-tab">
+                <div class="dm-mapping-columns">
+                  <div class="row row-no-margin">
+                    <div class="col-md-4"><span>Destination</span></div>
+                    <div class="col-md-4"><span>Source</span></div>
+                  </div>
+                </div>
+                <div class="dm-mapping-rows">
+                  <div class="row row-no-margin">
+                    <div class="col-md-4">
+                      <div class="contorl-header">
+                        <div class="input-box"><input type="text" value="Social No"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="contorl-header">
+                        <div class="input-box"><input type="text" value="Social Number"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-1">
+                      <div class="dm-mapping-delete">
+                        <i class="fa fa-trash"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row row-no-margin">
+                    <div class="col-md-4">
+                      <div class="contorl-header">
+                        <div class="input-box"><input type="text" value="License No"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="contorl-header">
+                        <div class="input-box"><input type="text" value="License Number"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-1">
+                      <div class="dm-mapping-delete">
+                        <i class="fa fa-trash"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row row-no-margin">
+                    <div class="col-md-4">
+                      <div class="contorl-header">
+                        <div class="input-box"><input type="text" value="Nationality"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="contorl-header">
+                        <div class="input-box"><input type="text" value="Nationality"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-1">
+                      <div class="dm-mapping-delete">
+                        <i class="fa fa-trash"></i>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="row row-no-margin">
+                    <div class="col-md-4">
+                      <div class="contorl-header">
+                        <div class="input-box"><input type="text" value="Account Limit"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="contorl-header">
+                        <div class="input-box rule-box"><input type="text" value="<Rule: Account Limit>"></div>
+                      </div>
+                    </div>
+                    <div class="col-md-1">
+                      <div class="dm-mapping-delete">
+                        <i class="fa fa-code-fork"></i>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
-              <div class="dm-mapping-rows">
-                <div class="row row-no-margin">
-                  <div class="col-md-4">
-                    <div class="contorl-header">
-                      <div class="input-box"><input type="text"></div>
+              <div *ngIf="!isMapview" class="dm-rulegen-tab">
+                <div class="dm-rules-area">
+                  <div class="dm-card">
+                    <div class="row">
+                      <div class="col-md-3 card-edit-area">
+                        <i class="fa fa-pencil-square-o"></i>
+                      </div>
+                      <div class="col-md-6 card-main-area">
+                        <div class="card-main-header"><span>Rule: City Code</span></div>
+                        <div class="card-main-desc"><span >Rule to determine the city code value based on file region</span></div>
+                      </div>
+                      <div class="col-md-3 card-delete-area">
+                        <i class="fa fa-trash-o"></i>
+                      </div>
                     </div>
                   </div>
-                  <div class="col-md-4">
-                    <div class="contorl-header">
-                      <div class="input-box"><input type="text"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-1">
-                    <div class="dm-mapping-delete">
-                      <i class="fa fa-trash"></i>
-                    </div>
-                  </div>
-                </div>
-                <div class="row row-no-margin">
-                  <div class="col-md-4">
-                    <div class="contorl-header">
-                      <div class="input-box"><input type="text"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="contorl-header">
-                      <div class="input-box"><input type="text"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-1">
-                    <div class="dm-mapping-delete">
-                      <i class="fa fa-trash"></i>
-                    </div>
-                  </div>
-                </div>
-                <div class="row row-no-margin">
-                  <div class="col-md-4">
-                    <div class="contorl-header">
-                      <div class="input-box"><input type="text"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-4">
-                    <div class="contorl-header">
-                      <div class="input-box"><input type="text"></div>
-                    </div>
-                  </div>
-                  <div class="col-md-1">
-                    <div class="dm-mapping-delete">
-                      <i class="fa fa-trash"></i>
+                  <div class="dm-card">
+                    <div class="row">
+                      <div class="col-md-3 card-edit-area">
+                        <i class="fa fa-pencil-square-o"></i>
+                      </div>
+                      <div class="col-md-6 card-main-area">
+                        <div class="card-main-header"><span>Rule: Account Limit</span></div>
+                        <div class="card-main-desc"><span >Rule to calculate the limit of an account</span></div>
+                      </div>
+                      <div class="col-md-3 card-delete-area">
+                        <i class="fa fa-trash-o"></i>
+                      </div>
                     </div>
                   </div>
                 </div>

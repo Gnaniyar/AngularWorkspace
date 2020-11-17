@@ -10,7 +10,7 @@ export class FeedMappingComponent implements OnInit {
   mappingHeight = 50;
   isTreeDocked = true;
   isPreviewDocked = true;
-
+  isMapview = true;
   dockTree(): void {
     if (this.isTreeDocked) {
       this.treeWidth = 3;
@@ -27,6 +27,10 @@ export class FeedMappingComponent implements OnInit {
       this.mappingHeight = 50;
     }
     this.isPreviewDocked = !this.isPreviewDocked;
+  }
+
+  toggleMapView(): void {
+    this.isMapview = !this.isMapview;
   }
   constructor() { }
 
